@@ -1,6 +1,7 @@
 name: myr_env
 channels:
  - conda-forge
+ - r
 dependencies:
  - r-base
  - r-tidyverse
@@ -9,3 +10,4 @@ dependencies:
  - r-leaflet
  - r-devtools
  - r-markdown
+ - r-irkernel
